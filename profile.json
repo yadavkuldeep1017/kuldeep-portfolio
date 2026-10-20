@@ -1,0 +1,23 @@
+{
+  "name": "Kuldeep Yadav",
+  "headline": "Software Developer II · Java Backend Development",
+  "currentRole": "Staff Consultant",
+  "company": "Oracle Financial Services Software",
+  "location": "Pune, India",
+  "email": "yadavkuldeep1017@gmail.com",
+  "phone": "+91 8329213654",
+  "phoneLink": "+918329213654",
+  "experience": "3+",
+  "updated": "October 2026",
+  "summary": "Backend Software Engineer with 3+ years of experience building Java and Spring Boot microservices and banking integrations at Oracle Financial Services Software. My work spans API orchestration, service integration, performance, observability, and delivery.",
+  "links": [
+    {"label":"LinkedIn","url":"https://www.linkedin.com/in/kuldeep-yadav-8aa972233/","detail":"Career & professional connections"},
+    {"label":"GitHub","url":"https://github.com/yadavkuldeep1017","detail":"Code & personal projects"},
+    {"label":"LeetCode","url":"https://leetcode.com/u/yadavkuldeep1017/","detail":"Problem solving & algorithms"}
+  ],
+  "metrics": [
+    {"value":"500+","label":"REST / SOAP services migrated","detail":"To a Spring Boot integration layer"},
+    {"value":"75%","label":"Lower API response times","detail":"Through caching & query optimization"},
+    {"value":"80%","label":"Less production debugging effort","detail":"With ELK monitoring & alerting"}
+  ]
+}

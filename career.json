@@ -1,0 +1,344 @@
+{
+  "roles": [
+    {
+      "id": "oracle-staff-consultant",
+      "company": "Oracle Financial Services Software (OFSS)",
+      "title": "Staff Consultant - Java Backend Development",
+      "dates": "Oct 2026 - Present",
+      "location": "Pune, India",
+      "summary": "Current role in Java backend development, following the Associate Consultant role at Oracle Financial Services Software.",
+      "contributionScope": "The Oracle contributions below cover the overall Oracle tenure. The resume does not assign individual achievements to a specific title.",
+      "highlights": [],
+      "tech": [
+        "Java",
+        "Spring",
+        "Spring Boot",
+        "Microservices",
+        "Banking integrations"
+      ]
+    },
+    {
+      "id": "oracle-associate-consultant",
+      "company": "Oracle Financial Services Software (OFSS)",
+      "title": "Associate Consultant",
+      "dates": "Aug 2023 - Sep 2026",
+      "location": "Pune, India",
+      "summary": "Java backend and banking integration work at Oracle Financial Services Software.",
+      "contributionScope": "Across Oracle roles",
+      "highlights": [],
+      "tech": [
+        "Java",
+        "Spring",
+        "Spring Boot",
+        "Apache Camel",
+        "Conductor",
+        "Spring Cloud Gateway",
+        "REST",
+        "SOAP",
+        "Docker",
+        "Kubernetes",
+        "OLCNE",
+        "ELK Stack",
+        "Git",
+        "CI/CD",
+        "MCP"
+      ]
+    },
+    {
+      "id": "cybersecurist-intern",
+      "company": "Cybersecurist",
+      "title": "Cybersecurity Technology Intern",
+      "dates": "Jan 2023 - Jun 2023",
+      "location": "",
+      "summary": "Application security internship focused on auditing enterprise applications using OWASP methodologies.",
+      "highlights": [
+        "Audited 15+ enterprise applications using OWASP methodologies.",
+        "Identified critical vulnerabilities during application audits."
+      ],
+      "tech": [
+        "Application security",
+        "OWASP methodologies",
+        "Security auditing"
+      ]
+    }
+  ],
+  "companyHighlights": [
+    "Developed Oracle Banking Routing Hub (OBRH) orchestration services for HDFC Bank using Java, Spring, and Spring Boot to coordinate banking API workflows.",
+    "Built Apache Camel routes and Conductor workflows to integrate backend services, with Spring Cloud Gateway routing API requests.",
+    "Migrated 500+ REST and SOAP services to a Spring Boot integration layer, simplifying deployment.",
+    "Optimized caching and database queries, reducing API response times by 75%.",
+    "Implemented ELK Stack monitoring and alerting, reducing production debugging effort by 80%.",
+    "Containerized applications with Docker and deployed them on Kubernetes through OLCNE as part of DevOps and CI/CD delivery.",
+    "Built a Model Context Protocol (MCP) server proof of concept to expose internal banking APIs as tools.",
+    "Delivered OBRH releases with zero production defects and mentored junior engineers on Git workflows, Agile practices, and CI/CD."
+  ],
+  "projects": [
+    {
+      "id": "obrh-orchestration",
+      "title": "Banking API orchestration",
+      "category": "Banking integration",
+      "summary": "Coordinated banking API workflows in Oracle Banking Routing Hub for HDFC Bank.",
+      "metric": "OBRH",
+      "metricLabel": "Banking integration platform",
+      "tech": [
+        "Java",
+        "Spring",
+        "Spring Boot",
+        "Apache Camel",
+        "Conductor",
+        "Spring Cloud Gateway"
+      ],
+      "context": "Banking workflows can depend on multiple backend services. Orchestration coordinates those service calls so they form one business flow.",
+      "contributions": [
+        "Developed orchestration services in OBRH using Java, Spring, and Spring Boot.",
+        "Built Apache Camel routes to connect backend services.",
+        "Built Conductor workflows to coordinate service interactions.",
+        "Used Spring Cloud Gateway to route API requests."
+      ],
+      "outcomes": [
+        "Enabled coordinated banking API workflows for the HDFC Bank integration.",
+        "Delivered OBRH releases with zero production defects, as reported in the resume."
+      ],
+      "explanation": "Concept example: one customer request may need more than one backend service. An orchestration flow coordinates the steps, integration routes move the messages, and a gateway directs incoming API requests. This example explains the tools; it is not a disclosure of the client's implementation.",
+      "links": []
+    },
+    {
+      "id": "service-migration",
+      "title": "500+ service integration migration",
+      "category": "Backend modernization",
+      "summary": "Moved REST and SOAP services to a Spring Boot integration layer to simplify deployment.",
+      "metric": "500+",
+      "metricLabel": "REST / SOAP services migrated",
+      "tech": [
+        "Java",
+        "Spring Boot",
+        "REST",
+        "SOAP",
+        "Service integration"
+      ],
+      "context": "The work brought existing REST and SOAP services into a Spring Boot integration layer.",
+      "contributions": [
+        "Migrated more than 500 REST and SOAP services.",
+        "Used Spring Boot as the integration layer."
+      ],
+      "outcomes": [
+        "Simplified deployment of the integrated services."
+      ],
+      "explanation": "REST and SOAP are different ways for applications to exchange requests and responses. An integration layer connects services behind a common application structure, making the services easier to deploy consistently.",
+      "links": []
+    },
+    {
+      "id": "api-performance",
+      "title": "API performance optimization",
+      "category": "Performance engineering",
+      "summary": "Improved API response times through caching and database query optimization.",
+      "metric": "75%",
+      "metricLabel": "Reduction in API response times",
+      "tech": [
+        "Caching",
+        "Database queries",
+        "Backend APIs"
+      ],
+      "context": "API performance work focused on caching and the database queries used by backend services.",
+      "contributions": [
+        "Optimized caching behavior.",
+        "Optimized database queries used by APIs."
+      ],
+      "outcomes": [
+        "Reduced API response times by 75%, as reported in the resume."
+      ],
+      "explanation": "Caching keeps a reusable result close to the application, so it may avoid repeating expensive work. Query optimization improves how a database retrieves information. A 75% reduction would turn a hypothetical 400 ms response into 100 ms; these numbers are an illustration, not measured project values.",
+      "links": []
+    },
+    {
+      "id": "observability-delivery",
+      "title": "Production visibility and delivery",
+      "category": "DevOps & observability",
+      "summary": "Combined ELK monitoring and alerting with containerized application delivery on Kubernetes.",
+      "metric": "80%",
+      "metricLabel": "Reduction in production debugging effort",
+      "tech": [
+        "ELK Stack",
+        "Docker",
+        "Kubernetes",
+        "OLCNE",
+        "CI/CD",
+        "Git"
+      ],
+      "context": "Production engineering work covered finding issues through monitoring and delivering applications through containers and automated delivery practices.",
+      "contributions": [
+        "Implemented ELK Stack monitoring and alerting.",
+        "Containerized applications using Docker.",
+        "Deployed applications on Kubernetes through OLCNE.",
+        "Mentored junior engineers on Git workflows, Agile practices, and CI/CD."
+      ],
+      "outcomes": [
+        "Reduced production debugging effort by 80% through ELK monitoring and alerting.",
+        "Supported containerized application delivery as part of DevOps and CI/CD."
+      ],
+      "explanation": "Observability means understanding what an application is doing from signals such as logs, metrics, and traces. Containers package an application with what it needs to run. CI/CD means checking and delivering changes through repeatable automated steps. The resume reports the ELK debugging improvement separately from the deployment work.",
+      "links": []
+    },
+    {
+      "id": "mcp-proof-of-concept",
+      "title": "Banking API tools with MCP",
+      "category": "AI integration proof of concept",
+      "summary": "Built a Model Context Protocol server proof of concept that exposed internal banking APIs as tools.",
+      "metric": "MCP",
+      "metricLabel": "Server proof of concept",
+      "tech": [
+        "Model Context Protocol",
+        "Banking APIs",
+        "Tool integration"
+      ],
+      "context": "A proof of concept explored exposing internal banking APIs as tools through an MCP server.",
+      "contributions": [
+        "Built an MCP server proof of concept.",
+        "Exposed internal banking APIs as tools."
+      ],
+      "outcomes": [
+        "Demonstrated API tool exposure through an MCP server."
+      ],
+      "explanation": "MCP is a standard way for an AI application to connect to tools and information. A proof of concept is an early implementation used to demonstrate an idea. This entry describes a proof of concept; the resume does not claim a production rollout.",
+      "links": []
+    },
+    {
+      "id": "cricfreaks",
+      "title": "CricFreaks Tournament Scheduler",
+      "category": "Portfolio project",
+      "summary": "Automated tournament fixture generation using Java, Spring Boot, and MySQL.",
+      "metric": "50+",
+      "metricLabel": "Teams supported in fixture generation",
+      "tech": [
+        "Java",
+        "Spring Boot",
+        "MySQL",
+        "Batch processing"
+      ],
+      "context": "Tournament organizers need fixtures that identify which teams play each other. This project automated fixture generation for tournaments with more than 50 teams.",
+      "contributions": [
+        "Built an automated fixture generation engine.",
+        "Used optimized batch processing to generate fixtures for 50+ teams.",
+        "Built the project with Java, Spring Boot, and MySQL."
+      ],
+      "outcomes": [
+        "Supported automated fixture generation for 50+ teams."
+      ],
+      "explanation": "Batch processing handles a group of items together. In a scheduler, that can mean generating a set of fixtures as one unit of work.",
+      "links": []
+    },
+    {
+      "id": "railway-reservation",
+      "title": "Railway Reservation System",
+      "category": "Portfolio project",
+      "summary": "Built a booking platform with real-time payments using ASP.NET, C#, SQL Server, and JavaScript.",
+      "metric": "<200 ms",
+      "metricLabel": "Response times with 100+ concurrent transactions",
+      "tech": [
+        "ASP.NET",
+        "C#",
+        "SQL Server",
+        "JavaScript",
+        "Payments"
+      ],
+      "context": "The project implemented a railway booking platform with real-time payments and support for concurrent transactions.",
+      "contributions": [
+        "Built the reservation platform with ASP.NET and C#.",
+        "Used SQL Server and JavaScript in the application.",
+        "Implemented real-time payment functionality."
+      ],
+      "outcomes": [
+        "Supported 100+ concurrent transactions.",
+        "Achieved response times under 200 ms, as reported in the resume."
+      ],
+      "explanation": "Concurrent transactions are transactions handled during overlapping periods of time. The reported results describe the project's measured behavior, rather than a performance guarantee for every environment.",
+      "links": []
+    },
+    {
+      "id": "application-security-audits",
+      "title": "Enterprise application security audits",
+      "category": "Cybersecurity internship",
+      "summary": "Audited enterprise applications using OWASP methodologies during the Cybersecurist internship.",
+      "metric": "15+",
+      "metricLabel": "Enterprise applications audited",
+      "tech": [
+        "OWASP methodologies",
+        "Application security",
+        "Security auditing"
+      ],
+      "context": "The January to June 2023 internship focused on auditing enterprise applications for security vulnerabilities.",
+      "contributions": [
+        "Audited 15+ enterprise applications.",
+        "Applied OWASP methodologies during security audits.",
+        "Identified critical vulnerabilities."
+      ],
+      "outcomes": [
+        "Identified critical vulnerabilities in enterprise application audits."
+      ],
+      "explanation": "A security audit checks an application for weaknesses that could expose data or allow unintended actions. OWASP provides widely used application security guidance. Specific client systems and vulnerability details are not included in this public project summary.",
+      "links": []
+    }
+  ],
+  "education": [
+    {
+      "id": "mca",
+      "degree": "Master of Computer Applications (MCA)",
+      "institution": "MIT School of Science, Pune",
+      "dates": "2021 - 2023",
+      "score": "CGPA: 9.75/10",
+      "detail": "CGPA: 9.75/10 · Bronze Medalist, 3rd Rank in MCA · Scholarship: INR 3,00,000",
+      "details": [
+        "Bronze Medalist, 3rd Rank in MCA",
+        "Scholarship: INR 3,00,000"
+      ]
+    },
+    {
+      "id": "bsc",
+      "degree": "Bachelor of Science in Computer Science",
+      "institution": "Modern College of Arts, Science & Commerce, SPPU",
+      "dates": "2018 - 2021",
+      "score": "86.73%",
+      "detail": "86.73%",
+      "details": []
+    }
+  ],
+  "achievements": [
+    {
+      "title": "Oracle FSGIU Pacesetter Spark Award",
+      "detail": "Award received in 2026."
+    },
+    {
+      "title": "Bronze Medalist in MCA",
+      "detail": "3rd Rank in the Master of Computer Applications program."
+    },
+    {
+      "title": "TechGig Code Gladiators Finalist",
+      "detail": "Placed in the top 2%, as reported in the resume."
+    },
+    {
+      "title": "CodeChef rating: 1650",
+      "detail": "Rating recorded in the resume."
+    },
+    {
+      "title": "300+ DSA problems solved",
+      "detail": "Practice in data structures and algorithms: ways to organize information and solve problems efficiently."
+    }
+  ],
+  "certifications": [
+    {
+      "title": "AWS Cloud Practitioner Essentials",
+      "kind": "Course / training",
+      "detail": "Learning credential listed in the resume. This course title is distinct from the AWS Certified Cloud Practitioner certification."
+    },
+    {
+      "title": "AI For Everyone",
+      "kind": "Course / training",
+      "detail": "Learning credential listed in the resume."
+    },
+    {
+      "title": "Python Programming (edX)",
+      "kind": "Course / training",
+      "detail": "Python programming learning credential listed in the resume."
+    }
+  ]
+}
