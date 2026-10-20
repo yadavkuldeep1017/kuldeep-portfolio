@@ -15,6 +15,7 @@ This repository contains the ready-to-host website. GitHub Pages serves the root
 | `assets/kuldeep-yadav.jpg` | The profile photo |
 | `app.js` | Page text, page layout, and interactions |
 | `styles.css` | Visual design and mobile layout |
+| `theme.css` | Dark colors, component styling, and the full-name logo |
 
 Keep project and technology IDs stable so existing links still work. Add real project/demo links in a project's `links` array as `{"label":"Repository","url":"https://your-real-project-link"}`. Do not add guessed links or unsupported experience claims.
 
