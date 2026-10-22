@@ -8,7 +8,7 @@ This repository contains the ready-to-host website. GitHub Pages serves the root
 
 | File | Content |
 | --- | --- |
-| `profile.json` | Contact details, career links, summary, and headline results |
+| `profile.json` | Contact details, career links, summary, and experience and expertise highlights |
 | `career.json` | Roles, contributions, projects, education, awards, and training |
 | `technologies.json` | Technology explanations, examples, experience context, and reference links |
 | `assets/Kuldeep-Yadav-Resume.pdf` | The downloadable resume |

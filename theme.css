@@ -134,3 +134,32 @@
 @media screen and (max-width: 360px) {
   .connect-link { display: none; }
 }
+
+/* Experience-led homepage highlights. Uses the existing light print palette. */
+.expertise-section { border-top: 1px solid var(--line); padding: 31px 0 39px; }
+.expertise-section > .eyebrow { margin-bottom: 23px; }
+.expertise-strip { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 28px; }
+.expertise-highlight { display: block; padding-right: 28px; border-right: 1px solid var(--line); }
+.expertise-highlight:last-child { padding-right: 0; border-right: 0; }
+.expertise-title { display: flex; align-items: center; gap: 12px; margin-bottom: 15px; }
+.expertise-icon { display: grid; place-items: center; width: 40px; height: 40px; flex-shrink: 0; border: 1px solid var(--line); border-radius: 10px; background: var(--soft); color: var(--olive); }
+.expertise-icon svg { width: 20px; height: 20px; }
+.expertise-highlight h2 { font-size: 20px; line-height: 1.35; letter-spacing: -.025em; color: var(--ink); }
+.expertise-highlight p { margin: 0; color: var(--muted); font-size: 13px; line-height: 1.85; }
+.expertise-highlight:hover h2 { color: var(--olive); }
+.expertise-highlight:hover .expertise-icon { border-color: var(--olive); }
+@media (max-width: 1050px) {
+  .expertise-strip { gap: 21px; }
+  .expertise-highlight { padding-right: 21px; }
+  .expertise-title { align-items: flex-start; flex-direction: column; }
+  .expertise-highlight h2 { font-size: 19px; }
+}
+@media (max-width: 550px) {
+  .expertise-section { padding: 27px 0 31px; }
+  .expertise-strip { grid-template-columns: 1fr; gap: 0; }
+  .expertise-highlight { border-right: 0; border-bottom: 1px solid var(--line); padding: 22px 0; }
+  .expertise-highlight:first-child { padding-top: 0; }
+  .expertise-highlight:last-child { border-bottom: 0; padding-bottom: 0; }
+  .expertise-title { align-items: center; flex-direction: row; margin-bottom: 11px; }
+  .expertise-highlight h2 { font-size: 20px; }
+}

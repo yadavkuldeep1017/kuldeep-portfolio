@@ -15,9 +15,9 @@
     {"label":"GitHub","url":"https://github.com/yadavkuldeep1017","detail":"Code & personal projects"},
     {"label":"LeetCode","url":"https://leetcode.com/u/yadavkuldeep1017/","detail":"Problem solving & algorithms"}
   ],
-  "metrics": [
-    {"value":"500+","label":"REST / SOAP services migrated","detail":"To a Spring Boot integration layer"},
-    {"value":"75%","label":"Lower API response times","detail":"Through caching & query optimization"},
-    {"value":"80%","label":"Less production debugging effort","detail":"With ELK monitoring & alerting"}
+  "expertiseHighlights": [
+    {"title":"Java backend development","detail":"I build backend services and microservices using Java, Spring Boot, and REST APIs.","icon":"server","url":"technologies.html?category=Backend"},
+    {"title":"Banking API integration","detail":"I connect banking services using Apache Camel, Conductor workflows, and Spring Cloud Gateway.","icon":"layers","url":"project.html?id=obrh-orchestration"},
+    {"title":"Performance & production delivery","detail":"I improve API performance, monitor services, and deploy applications using Docker and Kubernetes.","icon":"chart","url":"experience.html"}
   ]
 }
