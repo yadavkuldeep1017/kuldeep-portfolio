@@ -1,6 +1,6 @@
 # Kuldeep Yadav — Portfolio
 
-Java backend engineering portfolio with career details, eight work case studies, 43 technology notes, professional links, education, achievements, a photo, and the original downloadable resume.
+Java backend engineering portfolio with career details, eight work case studies, 43 technology notes, professional links, education, achievements, a photo, and the updated downloadable resume.
 
 This repository contains the ready-to-host website. GitHub Pages serves the root of the `main` branch. There are no JavaScript package dependencies and no build service is needed.
 
