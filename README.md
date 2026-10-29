@@ -1,6 +1,6 @@
 # Kuldeep Yadav — Portfolio
 
-Java backend engineering portfolio with career details, eight work case studies, 43 technology notes, a 30-note OBRH engineering notebook, professional links, education, achievements, a photo, and the updated downloadable resume.
+Java backend engineering portfolio with career details, eight work case studies, 68 illustrated study lessons, a 26-step AI learning path, a 30-note OBRH notebook, professional links, education, achievements, a photo, and the updated downloadable resume.
 
 This repository contains the ready-to-host website. GitHub Pages serves the root of the `main` branch. There are no JavaScript package dependencies and no build service is needed.
 
@@ -18,6 +18,11 @@ This repository contains the ready-to-host website. GitHub Pages serves the root
 | `theme.css` | Dark colors, component styling, and the full-name logo |
 | `obrh.html` | Public OBRH overview and learning notebook, including fictional walkthroughs and references |
 | `obrh.css` | Notebook layout and responsive reading styles |
+| `ai.html` | AI learning path from foundations to retrieval, agents, evaluation, and production |
+| `study-data.js` | Generated educational content and curriculum bundle |
+| `study.js` / `study.css` | Lesson rendering, original SVG diagrams, image downloads, and local study progress |
+
+Open [the technology library](technologies.html) or [the AI learning path](ai.html). Each lesson has ten illustrated sections covering definitions, use cases, mechanics, trade-offs, comparisons, an example, deeper topics, mistakes, practice, and references. New AI topics are labelled as learning material. Diagram images can be downloaded as SVG files. Progress stays in the reader's browser; the site does not run the teaching samples or call model APIs. In the editable local source, update the `content/study-*.json` files and `content/ai-curriculum.json`, then run `python build.py` to regenerate the public bundle.
 
 The OBRH notebook is linked from Experience, Work, global search, and the previous OBRH case-study URL. Its content is static HTML, so the notes remain readable without JavaScript. In the editable local source, update `content/obrh-guide.json` and run `python build.py` to regenerate it. Keep employer source, internal configuration, actual payloads, and private review records out of this public repository.
 
